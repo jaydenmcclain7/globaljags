@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@google-cloud/firestore": "^6.5.0",
+    "@google-cloud/firestore": "^6.8.0",
     "@google-cloud/storage": "^6.9.4",
     "exif-async": "^1.0.6",
     "fs-extra": "^11.1.0",

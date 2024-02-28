@@ -13,12 +13,12 @@ gcloud functions deploy extract_exif \
 --runtime nodejs18 \
 --trigger-event google.storage.object.finalize \
 --entry-point extractExif \
---trigger-resource sp24-elliott-globaljags-final
+--trigger-resource sp24-41200-jaydmccl-gj-final
 ```
 
 ## Trigger the Cloud Function
 Trigger the Cloud Function by uploading a sample image to your bucket. **Ensure you replace YOUR BUCKET NAME in the command below.**
 
 ```
-gsutil cp gs://sp23-globaljags-dev-sample-images/china/china1.jpeg gs://sp24-elliott-globaljags-final
+gsutil cp gs://sp23-globaljags-dev-sample-images/china/china1.jpeg gs://sp24-41200-jaydmccl-gj-final
 ```
